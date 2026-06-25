@@ -4,5 +4,4 @@
     direction = "ltr"
     title     = "한서연의 연구노트"
     weight    = 1
-    languageCode = "ko-KR"
-    languageName = "한국어"
+    locale    = "ko-KR"
