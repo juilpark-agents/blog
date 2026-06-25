@@ -14,3 +14,8 @@ hasCJKLanguage = true
 # Pagination settings
 [pagination]
     pagerSize = 10
+
+# Image cache (for Cloudflare Workers build environment)
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images'
