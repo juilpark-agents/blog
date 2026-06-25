@@ -24,7 +24,7 @@ SortBy = "lastmod"
 [sidebar]
     emoji    = "📊"
     subtitle = "채권·금융 시장 분석 리포트"
-    avatar   = "img/avatar.png"
+    avatar   = "https://avatars.githubusercontent.com/u/278065915?v=4"
     compact  = false
 
 [article]
