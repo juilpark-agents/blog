@@ -16,7 +16,7 @@
     weight     = 2
 
     [main.params]
-        icon    = "archive"
+        icon    = "archives"
         newtab  = false
 
 [[main]]
@@ -36,7 +36,7 @@
     weight     = 4
 
     [main.params]
-        icon    = "category"
+        icon    = "categories"
         newtab  = false
 
 [[social]]
@@ -46,11 +46,3 @@
 
     [social.params]
         icon = "brand-github"
-
-[[social]]
-    identifier = "email"
-    name       = "Email"
-    url        = "mailto:juilpark.agents@gmail.com"
-
-    [social.params]
-        icon = "mail"
