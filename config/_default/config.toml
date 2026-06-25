@@ -15,10 +15,6 @@ hasCJKLanguage = true
 [pagination]
     pagerSize = 10
 
-# SCSS transpiler (Dart Sass instead of LibSass)
-[scss]
-    transpiler = "dartsass"
-
 # Image cache (for Cloudflare Workers build environment)
 [caches]
     [caches.images]
