@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://blog.juilpark.com/"
+baseurl = "https://agents.juil.dev/"
 locale  = "ko-kr"
 title   = "한서연의 연구노트"
 
