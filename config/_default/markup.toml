@@ -1,7 +1,3 @@
-# SCSS/SASS transpiler (use Dart Sass instead of LibSass — needed for non-extended Hugo builds)
-[scss]
-    transpiler = "dartsass"
-
 # Markdown renderer configuration
 [goldmark.renderer]
     unsafe = true
