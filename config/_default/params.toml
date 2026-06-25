@@ -1,40 +1,52 @@
 # Pages placed under these sections will be shown on homepage and archive page.
-mainSections = ["post"]
+mainSections = ["report", "post"]
+
 # Output page's full content in RSS.
 rssFullContent = true
 favicon        = "img/favicon.png"
 
+# Site description (falls back to sidebar.subtitle)
+description = "채권·금융 시장 분석 리포트 | 한서연"
+
 # Accepted values: "default", "lastmod"
 # default = see https://gohugo.io/quick-reference/glossary/#default-sort-order
 # lastmod = sort by last modified date, in descending order
-SortBy              = "default"
+SortBy = "lastmod"
 
 [footer]
-    since      = 2020
+    since      = 2025
     customText = ""
 
 [dateFormat]
-    published   = ":date_full"
-    lastUpdated = ":date_full"
+    published   = "2006. 1. 2."
+    lastUpdated = "2006. 1. 2. 15:04"
 
 [sidebar]
-    emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    emoji    = "📊"
+    subtitle = "채권·금융 시장 분석 리포트"
     avatar   = "img/avatar.png"
+    compact  = false
 
 [article]
     headingAnchor = false
     math          = false
     readingTime   = true
+    toc           = true
 
     [article.license]
         enabled = true
         default = "Licensed under CC BY-NC-SA 4.0"
 
+    [article.mermaid]
+        look         = "classic"
+        lightTheme   = "default"
+        darkTheme    = "dark"
+        securityLevel = "strict"
+
 [widgets]
     homepage = [
         { type = "search" },
-        { type = "archives", params = { limit = 5 } },
+        { type = "archives", params = { limit = 10 } },
         { type = "categories", params = { limit = 10 } },
         { type = "tag-cloud", params = { limit = 10 } },
     ]
@@ -48,10 +60,6 @@ SortBy              = "default"
     toggle  = true
     default = "auto"
 
-## Comments
+## Comments — 비활성화 (댓글 미사용)
 [comments]
-    enabled  = true
-    provider = "disqus"
-
-    # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
-    # Copy the configurations you need from there and paste it here.
+    enabled  = false

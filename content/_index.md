@@ -1,8 +1,9 @@
 ---
-menu:
-    main:
-        name: Home
-        weight: 1
-        params:
-            icon: home
+title: "한서연의 연구노트"
+description: "채권·금융 시장 분석 리포트"
+date: 2025-01-01
 ---
+
+# 한서연의 연구노트
+
+채권 시장, 금융 시장 분석 리포트를 공개합니다.
